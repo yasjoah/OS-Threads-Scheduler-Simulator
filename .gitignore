@@ -1,0 +1,22 @@
+# Build artifacts
+cpp/sim.exe
+cpp/build/
+cmake-build-*/
+*.obj
+*.pdb
+
+# Generated outputs (recreated by run.bat)
+outputs/*
+!outputs/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
